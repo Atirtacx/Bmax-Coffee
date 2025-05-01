@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #db9a5c;
+  --color-background: #010101;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  font: "Poppins", sans-serif;
+  background-color: var(--color-background);
+  color: #fff;
+}

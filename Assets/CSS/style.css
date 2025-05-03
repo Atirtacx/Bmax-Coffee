@@ -3,6 +3,11 @@
   --color-background: #010101;
 }
 
+:root {
+  --primary-color: #db9a5c;
+  --color-background: #010101;
+}
+
 * {
   margin: 0;
   padding: 0;

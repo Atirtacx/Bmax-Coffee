@@ -25,7 +25,7 @@ body {
   align-items: center;
   padding: 1.4rem 7%;
   background-color: rgba(1, 1, 1, 0, 8);
-  border-bottom: 1px solid #795636;
+  border-bottom: 1px solid #27211c;
   top: 0;
   left: 0;
   right: 0;
@@ -36,8 +36,46 @@ body {
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
+  font-style: italic;
 }
 
 .navbar .navbar_logo span {
   color: var(--primary-color);
+}
+
+.navbar .navbar_menu a {
+  color: #fff;
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.navbar .navbar_menu a:hover {
+  color: var(--primary-color);
+}
+
+.navbar .navbar_menu a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--primary-color);
+  transform: scaleX(0);
+  transition: 0.5s ease;
+}
+
+.navbar .navbar_menu a:hover::after {
+  transform: scaleX(0.4);
+}
+
+.navbar .navbar_icon a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.navbar .navbar_icon a:hover {
+  color: var(--primary-color);
+}
+
+#hamburger-menu {
+  display: none;
 }

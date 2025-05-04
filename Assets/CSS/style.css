@@ -121,6 +121,14 @@ body {
     padding: 0.5rem;
     font-size: 2rem;
   }
+
+  .navbar .navbar_menu a::after {
+    transform-origin: 0 0;
+  }
+
+  .navbar .navbar_menu a:hover::after {
+    transform: scaleX(0.2);
+  }
 }
 
 /* Mobile Phone */

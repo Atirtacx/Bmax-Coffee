@@ -26,6 +26,7 @@ body {
   padding: 1.4rem 7%;
   background-color: rgba(1, 1, 1, 0, 8);
   border-bottom: 1px solid #27211c;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -93,6 +94,20 @@ body {
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
+  }
+
+  #hamburger-menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar_menu {
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    background-color: #fff;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
   }
 }
 

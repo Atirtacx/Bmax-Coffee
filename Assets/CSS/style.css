@@ -185,6 +185,7 @@ body {
   font-size: 1.4rem;
   font-weight: 100;
   line-height: 1.6rem;
+  text-align: justify;
 }
 /* Media Queries */
 
@@ -233,6 +234,30 @@ body {
 
   .navbar .navbar_menu a:hover::after {
     transform: scaleX(0.2);
+  }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .img-about .img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .about .row .content p {
+    text-align: justify;
+    font-size: 1.6rem;
   }
 }
 

@@ -225,7 +225,7 @@ body {
   margin: 1rem;
   flex: 0 0 calc(25% - 2rem); /* 4 kolom */
   max-width: calc(25% - 2rem);
-  transition: transform 0.3s ease;
+  transition: transform 1.5s ease;
   grid-template-columns: repeat(4, 1fr);
 }
 

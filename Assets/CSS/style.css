@@ -16,7 +16,6 @@ body {
   font: "Poppins", sans-serif;
   background-color: var(--color-background);
   color: #fff;
-  min-height: 5000px;
 }
 
 /* Navbar */
@@ -298,6 +297,45 @@ body {
   color: #fff;
   background-color: var(--primary-color);
   cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: var(--color-background);
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: var(--color-background);
+  font-weight: 400;
 }
 
 /* Media Queries */
